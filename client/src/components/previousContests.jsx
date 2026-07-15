@@ -1,4 +1,3 @@
-import PreviousContests from './components/PreviousContests'
 import "./PreviousContests.css";
 
 // YOUR LOCAL IMAGES FROM public/images FOLDER
@@ -7,7 +6,7 @@ const contest2 = "/images/closed-02.jpg"; // Lake + Boat + Mountains
 const contest3 = "/images/closed-03.jpg"; // Lake House + Mountains
 const contest4 = "/images/featured-image-01.jpg"; // Forest Bridge
 
-const contests = [
+const contestsData = [  // 'Data' add chesam to avoid duplicate name
   {
     image: contest1,
     participants: "56 Participants",
@@ -28,7 +27,7 @@ const contests = [
     participants: "92 Participants",
     pictures: "450 Pictures",
   },
-];
+]; // <-- Ikkada ] ; undali. Nuv ] miss ayyav
 
 function PreviousContests() {
   return (
@@ -40,7 +39,7 @@ function PreviousContests() {
         </h2>
 
         <div className="previous-grid">
-          {contests.map((contest, index) => (
+          {contestsData.map((contest, index) => ( // ikkada kuda marcham
             <div className="previous-card" key={index}>
               <div className="previous-img-box">
                 <img src={contest.image} alt="Contest" />
