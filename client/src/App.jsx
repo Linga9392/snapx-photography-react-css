@@ -1,8 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Categories from "./components/Categories";
-import PreviousContests from "./components/PreviousContests"; // idhi paiki ravali
-import Pricing from "./components/Pricing";  // idhi kindhaki povali
+import PreviousContests from './components/PreviousContests'
+import Pricing from "./components/Pricing";  
 import Footer from "./components/Footer";
 import "./App.css";
 
