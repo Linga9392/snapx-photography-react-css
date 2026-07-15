@@ -1,3 +1,4 @@
+import PreviousContests from './components/PreviousContests'
 import "./PreviousContests.css";
 
 // YOUR LOCAL IMAGES FROM public/images FOLDER
