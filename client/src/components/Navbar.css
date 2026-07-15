@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+
+.navbar {
+  background: #00BFFF; /* FULL BLUE BG */
+  padding: 15px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px;
+}
+
+/* LOGO */
+.logo h2 { 
+  font-size: 28px; 
+  font-weight: 800; 
+  color: white; 
+  margin: 0;
+}
+.logo span { color: white; }
+.logo p {
+  font-size: 10px;
+  color: #e0f7ff;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* MENU - ANNI BLUE */
+.nav-links { 
+  display: flex; 
+  gap: 35px; 
+}
+.nav-links a {
+  text-decoration: none;
+  color: white; /* ANNI WHITE TEXT = BLUE BG MEEDA BLUE LAAGE UNTUNDI */
+  font-weight: 700;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.nav-links a:hover { 
+  opacity: 0.8;
+  text-decoration: underline; /* HOVER LO LINE */
+}
+
+/* RIGHT SIDE */
+.nav-right { 
+  display: flex; 
+  align-items: center; 
+  gap: 12px; 
+}
+
+.user-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.sign-btn {
+  background: white;
+  color: #00BFFF;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sign-btn:hover { background: #f0f0f0; }
